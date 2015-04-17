@@ -40,7 +40,7 @@ module RetirementEstimator
       { range: (Date.new(1978, 3, 6)..Date.new(1978, 4, 5)), date: Date.new(2046, 3, 6) },
     ]
 
-    def execute
+    def get
       if date_of_birth <= lower_threshold[:ends_on]
         to_date lower_threshold[:age]
       elsif date_of_birth >= HIGHER_THRESHOLD[:starts_on]

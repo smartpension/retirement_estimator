@@ -10,6 +10,6 @@ require 'retirement_estimator/woman'
 
 module RetirementEstimator
   def self.get(date_of_birth, man = true)
-    Estimator.new(date_of_birth, man).execute
+    Estimator.new(date_of_birth, man).get
   end
 end

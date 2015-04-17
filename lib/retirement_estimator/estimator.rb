@@ -1,8 +1,8 @@
 module RetirementEstimator
   class Estimator < Struct.new(:date_of_birth, :male?)
 
-    def execute
-      strategy.execute
+    def get
+      strategy.get
     end
 
     private
