@@ -18,7 +18,7 @@ module RetirementEstimator
       { range: (Date.new(1960, 5, 6)..Date.new(1960, 6, 5)), age: Age.new(66.years, 2.months, 0.days) },
       { range: (Date.new(1960, 6, 6)..Date.new(1960, 7, 5)), age: Age.new(66.years, 3.months, 0.days) },
       { range: (Date.new(1960, 7, 6)..Date.new(1960, 8, 5)), age: Age.new(66.years, 4.months, 0.days) },
-      { range: (Date.new(1960, 9, 6)..Date.new(1960, 9, 5)), age: Age.new(66.years, 5.months, 0.days) },
+      { range: (Date.new(1960, 8, 6)..Date.new(1960, 9, 5)), age: Age.new(66.years, 5.months, 0.days) },
       { range: (Date.new(1960, 9, 6)..Date.new(1960, 10, 5)), age: Age.new(66.years, 6.months, 0.days) },
       { range: (Date.new(1960, 10, 6)..Date.new(1960, 11, 5)), age: Age.new(66.years, 7.months, 0.days) },
       { range: (Date.new(1960, 11, 6)..Date.new(1960, 12, 5)), age: Age.new(66.years, 8.months, 0.days) },
